@@ -1,0 +1,23 @@
+/*style dotyczące tylko index.php - strona logowania */
+
+section#logowanie
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+}
+
+form#logowanie-formularz
+{
+	font-size: 20px;
+	text-align: center;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mark:hover
+{
+	transition-duration: 1s;
+	color: green;
+}

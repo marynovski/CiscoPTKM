@@ -1,0 +1,128 @@
+/* style dotycz¹ce kafelków nawigacyjnych */
+
+nav#user-nav
+{
+	width: 1180px;
+	height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/*---------------------------------------------------*/
+div.user-nav-tile
+{
+	padding-top: 10px;
+	font-size: 20px;
+	text-align: center;
+	width: 236px;
+	height: 40px;
+	float: left;
+}
+
+div.user-nav-tile:hover
+{
+	filter: brightness(75%);
+	transition-duration:1s;
+	color: #1c1c1c;
+}
+
+div#panel-one
+{
+	background-color: #ff3333;
+}
+
+div#panel-two
+{
+	background-color: #25c46f;
+}
+
+div#panel-three
+{
+	background-color: #dcf260;
+}
+
+div#panel-four
+{
+	background-color: #f97934;
+}
+
+div#panel-five
+{
+	background-color: #5063f4;
+}
+
+/*----------------------------------------------------*/
+
+section.content-container
+{
+	float: left;
+	width: 600px;
+	height: 420px;
+	overflow: auto;
+}
+
+
+
+div.page-nav-tile
+{
+	padding-top: 10px;
+	text-align: center;
+	font-size: 30px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	text-align: center;
+	float: left;
+	width: 260px;
+	height: 170px;
+}
+
+div.page-nav-tile:first-child, div.page-nav-tile:nth-child(4)
+{
+	margin-top: 20px;
+	margin-left: 20px;
+
+}
+
+div.page-nav-tile:nth-child(2), div.page-nav-tile:nth-child(5)
+{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+div#nav-tile-one
+{
+		background-color: #ff0000;
+}
+
+div#nav-tile-two
+{
+	background-color: #00ff00;
+}
+
+div#nav-tile-three
+{
+	background-color: orange;
+}
+
+div#nav-tile-four
+{
+	background-color: #0000ff;
+}
+
+div.page-nav-tile:hover
+{
+	transform: scale(1.1);
+	filter: brightness(75%);
+	transition-duration:1s;
+	color: #1c1c1c;
+}
+
+#opis
+{
+	margin: 20px;
+	text-align: justify;
+	font-size: 18px;
+}
+
